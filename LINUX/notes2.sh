@@ -118,3 +118,24 @@ case "$asnwer" in
 *)
 echo"wrong input: $answer"
 esac
+
+for fruit in $fruits
+do 
+    echo $fruit
+done
+while ["$number" -lt 5 ]
+do 
+echo "$number"
+let number=number+1
+done
+:'
+we can also use break and continue
+in bash all variables inside functions as well are by default global
+'
+:'
+arrays - lets say f is array
+declare -a f=(1 2 3 4 5)
+length of f = #f[*]
+echo ${f[$n]}
+where n is index
+'
