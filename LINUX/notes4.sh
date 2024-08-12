@@ -1,4 +1,4 @@
-:' WEEK-9 Slate modules summary/notes
+:' WEEK-8 Slate modules summary/notes
 grep - used to search text
 egrep pr grep -e - for extended regualr exps
 fgrep or grep -f - for fixed string patters no exps
