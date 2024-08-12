@@ -8,7 +8,7 @@ sed - stream editor for transformation on an input stream
 ? - 0 or 1
 [acv] - one char from this
 [^anv] - any char but not this
-(c)\{m,n} - no specified
+(c)\{m,n} - number specified
 \(expression\) - group operator
 \n - nth refernce - back reference
 epx1| exp2 - one of them

@@ -2,6 +2,9 @@
 paste file1 file2 > file3
 # joins first line of file1 with first line of file2 and so on
 join file1 file2 > file3
+:'
+t is for delimiter
+'
 # joins file1 and file2 based on common field
 sort 
 :'
@@ -15,7 +18,7 @@ sort
 '
 cut -d: -f 3 company.data
 cut -c1-6 comany.data
-
+# d is for delimited in cut in awk it's F, in sort it t
 # diff - compare files 
 :'
 -a means appended 
