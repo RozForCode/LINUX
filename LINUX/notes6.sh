@@ -28,6 +28,7 @@ cut -c1-6 comany.data
 # cmp - compare files byte by byte
 # comm - comapre sorted files
 wc -m file
+
 :'
 -l - no.of lines
 -c - count of bytes
