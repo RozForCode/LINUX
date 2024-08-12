@@ -21,3 +21,24 @@ sed -e '3d' file
 sed -e '/hello/,/goodbye/d' file
 #substitution with address with delete
 sed -e '/^line.*one/s/line/LINE/' -e '/line/d' file
+
+
+:'part 1 done now part 2 awk'
+awk '{print}' /etc/password
+awk '{print $0}' /etc/password
+awk -F':' '{print $2}' file
+awk -F':' 'NR==1 {print}' file
+awk -F':' '$1==0 {print}' file
+:'
+==
+!=
+<>
+<=
+>= 
+# ?:
+'
+read yourChoice
+awk '$1==$yourChoice {print}' file
+awk 'NR==$yourChoice {print}' file #your file doesn't have numbers
+
+
